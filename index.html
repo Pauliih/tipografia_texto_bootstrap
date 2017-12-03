@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Tipografía y textos</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Aqui iría mi main.css si usara mis estilos -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+  <div class="container-fluid">
+    <!-- small nos muestra una letra mas pequeña -->
+    <h1 class="text-muted" >Este es un header H1 <small>Texto secundario</small></h1>
+    <h2 class="text-primary" >Este es un header H2 <small>Texto secundario</small></h2>
+    <h3 class="text-success" >Este es un header H3 <small>Texto secundario</small></h3>
+    <h4 class="text-info" >Este es un header H4 <small>Texto secundario</small></h4>
+    <h5 class="text-warning" >Este es un header H5 <small>Texto secundario</small></h5>
+    <h6 class="text-danger" >Este es un header H6 <small>Texto secundario</small></h6>
+    <br><br>
+    <h1 class="bg-danger" >Este es un header H1 <small>Texto secundario</small></h1>
+    <h2 class="bg-primary" >Este es un header H2 <small>Texto secundario</small></h2>
+    <h3 class="bg-success" >Este es un header H3 <small>Texto secundario</small></h3>
+    <h4 class="bg-info" >Este es un header H4 <small>Texto secundario</small></h4>
+    <h5 class="bg-warning" >Este es un header H5 <small>Texto secundario</small></h5>
+    <br><br>
+    <div class="row">
+      <!-- text-justify nos "justifica" el párrafo-->
+      <div class="col-md-4 text-justify">
+        <!-- lead nos muestra una letra un poco mas grande.
+        - text-lowercase nos transforma el texto a solo minusculas -->
+        <p class="lead text-lowercase">Lorem Ipsum Dolor Sit Amet, consectetur adipisicing elit. Accusantium</p>
+        <!-- etiqueta mark nos "destaca" el parrafo -->
+        <p class=""><mark>Quaerat blanditiis quae, minima velit esse minus porro ad? Non quaerat, quos</mark></p>
+        <!-- etiqueta del nos "deletea" (elimina) el parrafo -->
+        <p class=""><del>Temporibus beatae reiciendis, obcaecati aspernatur sapiente nulla eius.</del></p>
+        <!-- etiqueta s nos "subraya" en el centro del parrafo -->
+        <p class=""><s>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, paceat nobis</s></p>      
+        <!-- etiqueta ins nos "subraya" el parrafo -->
+        <p class=""><ins>laudantium, excepturi et nesciunt sed, libero ipsam nam labore placeat impedit</ins></p>
+        <!-- etiqueta u nos "under" subraya debajo del parrafo -->
+        <p class=""><u>quis consequatur, quas illum! Soluta sunt, eius ex obcaecati?</u></p>
+      </div>
+      <!-- text-center nos "centra" el párrafo-->
+      <div class="col-md-4 text-center">
+        <!-- la clase small nos muestra una letra un poco mas pequeña 
+          - text-uppercase nos transforma el texto a solo mayúsculas -->
+        <p class="small text-uppercase">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quas nihil </p>
+        <!-- etiqueta strong nos pone en "negrita" el parrafo -->
+        <p class=""><strong>possimus! Aspernatur sint vero, unde! Possimus quo, molestias rem! Ipsa, itaque. Sunt</strong></p>
+        <!-- etiqueta em nos pone en "italica" el parrafo -->
+        <p class=""><em>facilis atque doloribus, quam nulla voluptas aperiam, magnam autem.</em></p>
+        <!-- etiqueta b nos pone en "negrita" el parrafo -->
+        <p class=""><b> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, deleniti?</b></p>
+        <p class="">vel quas magni voluptate, eveniet reiciendis nulla nam odit nemo, ab corrupti, provident</p>
+        <p class="">animi architecto minima explicabo aperiam est, velit laborum.</p>
+      </div>
+      <!-- text-right nos "pone a la derecha" el párrafo-->
+      <div class="col-md-4 text-right">
+        <!-- text-capitalize nos transforma el texto a solo capitalizado -->
+        <p class="text-capitalize">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat inventore</p>
+        <!-- la etiqueta code nos transforma el párrafo para escribir código -->
+        <p class=""><code>reprehenderit doloribus quas magni aperiam, impedit. Ullam soluta corrupti iste assumenda</code></p>
+        <!-- la etiqueta pre nos transforma el párrafo para escribir código -->
+        <p class=""><pre> repellendus expedita. Vitae labore sunt, illo ullam cumque!</pre></p>
+        <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis eius ex</p>
+        <p class="">nam veritatis accusamus inventore ipsa nisi minus. Culpa cum eligendi nesciunt quam</p>
+        <p class="">repellendus iure harum, earum mollitia perferendis. Deleniti, molestiae!</p>
+      </div>
+    </div>
+    <div class="row">
+      <!-- blockquote es para poner citas de texto -->
+      <blockquote class="blockquote-reverse">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium adipisci incidunt at quo fugiat, quam animi dolor sit, sed quae ducimus aperiam repudiandae eos recusandae impedit vero consequuntur omnis accusamus.
+          <footer>Paula Campos <cite title="Fuente">en Fuente</cite> </footer> <!-- la etiqueta footer para poner el autor de la cita y cite con title para agregar la fuente -->
+        </p>
+      </blockquote>
+    </div>
+  </div>
+	
+	<!-- Primero jquery -->
+  <script src="assets/js/jquery.min.js"></script>
+  <!-- Después bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
